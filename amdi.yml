@@ -8,7 +8,9 @@ services:
     build: .
     environment:
       NODE_ENV: staging
-      DATABASE_URL: postgres://amdibase_user:jULpW1IVgpxL0FpmE44oFT1iGYpWQtj5@dpg-cf97iu9mbjss4meeq6gg-a.frankfurt-postgres.render.com/amdibase
+      DATABASE_URL: postgres://dbamdi_user:JCS4K9c8XtvV21vOCJ6VOhDGuDdw6A75@dpg-cfn308ta499f2891cji0-a.frankfurt-postgres.render.com/dbamdi
+      TZ: Asia/Colombo
+      LANGUAGE: EN
     deploy:
       resources:
         limits:
